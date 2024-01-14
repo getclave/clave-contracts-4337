@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "UserOperationLib",
+  "sourceName": "@account-abstraction/contracts/interfaces/UserOperation.sol",
+  "abi": [],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea26469706673582212207df2d531fea163ac4c27f83e57c634e9c71677c6e70d0aad5679681ee2d4071e64736f6c63430008110033",
+  "deployedBytecode": "0x600080fdfea26469706673582212207df2d531fea163ac4c27f83e57c634e9c71677c6e70d0aad5679681ee2d4071e64736f6c63430008110033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,222 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ValidatorManager",
+  "sourceName": "contracts/managers/ValidatorManager.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "ADDRESS_ALREADY_EXISTS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "ADDRESS_NOT_EXISTS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "EMPTY_R1_VALIDATORS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "INVALID_ADDRESS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NOT_FROM_SELF_OR_MODULE",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "VALIDATOR_ERC165_FAIL",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "validator",
+          "type": "address"
+        }
+      ],
+      "name": "K1AddValidator",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "validator",
+          "type": "address"
+        }
+      ],
+      "name": "K1RemoveValidator",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "validator",
+          "type": "address"
+        }
+      ],
+      "name": "R1AddValidator",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "validator",
+          "type": "address"
+        }
+      ],
+      "name": "R1RemoveValidator",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "entrypoint",
+      "outputs": [
+        {
+          "internalType": "contract IEntryPoint",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "validator",
+          "type": "address"
+        }
+      ],
+      "name": "k1AddValidator",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "validator",
+          "type": "address"
+        }
+      ],
+      "name": "k1IsValidator",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "k1ListValidators",
+      "outputs": [
+        {
+          "internalType": "address[]",
+          "name": "validatorList",
+          "type": "address[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "validator",
+          "type": "address"
+        }
+      ],
+      "name": "k1RemoveValidator",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "validator",
+          "type": "address"
+        }
+      ],
+      "name": "r1AddValidator",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "validator",
+          "type": "address"
+        }
+      ],
+      "name": "r1IsValidator",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "r1ListValidators",
+      "outputs": [
+        {
+          "internalType": "address[]",
+          "name": "validatorList",
+          "type": "address[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "validator",
+          "type": "address"
+        }
+      ],
+      "name": "r1RemoveValidator",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

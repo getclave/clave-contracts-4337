@@ -1,0 +1,2257 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/AccountFactory.sol": {
+      "lastModificationDate": 1705175744561,
+      "contentHash": "354052df9f1befc714cd58061177a3f4",
+      "sourceName": "contracts/AccountFactory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/utils/Create2.sol",
+        "@account-abstraction/contracts/interfaces/IEntryPoint.sol",
+        "./libraries/Errors.sol",
+        "./interfaces/IClaveRegistry.sol",
+        "./ClaveProxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "AccountFactory"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/libraries/Errors.sol": {
+      "lastModificationDate": 1705175744563,
+      "contentHash": "ee830921a91594fb52a1fd954382c11b",
+      "sourceName": "contracts/libraries/Errors.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Errors"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/interfaces/IClaveRegistry.sol": {
+      "lastModificationDate": 1705175744562,
+      "contentHash": "43341084c186521b713f7d21b25399a7",
+      "sourceName": "contracts/interfaces/IClaveRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "IClaveRegistry"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/ClaveProxy.sol": {
+      "lastModificationDate": 1705175744561,
+      "contentHash": "dcc760357b15ce2caffbe1b634d84cca",
+      "sourceName": "contracts/ClaveProxy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "ClaveProxy"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1705241386950,
+      "contentHash": "8398972af73b4e9e5ff3b31cad86234f",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@openzeppelin/contracts/utils/Create2.sol": {
+      "lastModificationDate": 1705241385599,
+      "contentHash": "1f0346d0da642d65cfb74f9241cc7683",
+      "sourceName": "@openzeppelin/contracts/utils/Create2.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Create2"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@account-abstraction/contracts/interfaces/IEntryPoint.sol": {
+      "lastModificationDate": 1705241383366,
+      "contentHash": "f88a97ac988a378551551be9ea4ee65e",
+      "sourceName": "@account-abstraction/contracts/interfaces/IEntryPoint.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UserOperation.sol",
+        "./IStakeManager.sol",
+        "./IAggregator.sol",
+        "./INonceManager.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "IEntryPoint"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1705241385583,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@account-abstraction/contracts/interfaces/UserOperation.sol": {
+      "lastModificationDate": 1705241383460,
+      "contentHash": "e605ec59ee4889ea6ef8b5332e7da0d8",
+      "sourceName": "@account-abstraction/contracts/interfaces/UserOperation.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../core/Helpers.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "UserOperationLib"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@account-abstraction/contracts/interfaces/INonceManager.sol": {
+      "lastModificationDate": 1705241383411,
+      "contentHash": "58293337a68c401ac395a955ab972702",
+      "sourceName": "@account-abstraction/contracts/interfaces/INonceManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "INonceManager"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@account-abstraction/contracts/interfaces/IStakeManager.sol": {
+      "lastModificationDate": 1705241383448,
+      "contentHash": "e5c534a14fbf384a02ed5f007d54b1f0",
+      "sourceName": "@account-abstraction/contracts/interfaces/IStakeManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "IStakeManager"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@account-abstraction/contracts/interfaces/IAggregator.sol": {
+      "lastModificationDate": 1705241383330,
+      "contentHash": "70c22a1f7e8ee0bd97fcabb493c4fca6",
+      "sourceName": "@account-abstraction/contracts/interfaces/IAggregator.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UserOperation.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "IAggregator"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@account-abstraction/contracts/core/Helpers.sol": {
+      "lastModificationDate": 1705241383052,
+      "contentHash": "3cbc58efa815f026e5e180817b65c653",
+      "sourceName": "@account-abstraction/contracts/core/Helpers.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": []
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@account-abstraction/contracts/interfaces/IAccount.sol": {
+      "lastModificationDate": 1705241383315,
+      "contentHash": "6d787a742dcf67af8bebad8a8db7b78e",
+      "sourceName": "@account-abstraction/contracts/interfaces/IAccount.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UserOperation.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "IAccount"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/ClaveImplementation.sol": {
+      "lastModificationDate": 1705175744561,
+      "contentHash": "4ba3ac957b460b24b2878fb699e54735",
+      "sourceName": "contracts/ClaveImplementation.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol",
+        "@account-abstraction/contracts/samples/callback/TokenCallbackHandler.sol",
+        "@account-abstraction/contracts/interfaces/IAccount.sol",
+        "@account-abstraction/contracts/interfaces/IEntryPoint.sol",
+        "@account-abstraction/contracts/interfaces/UserOperation.sol",
+        "./managers/HookManager.sol",
+        "./managers/ModuleManager.sol",
+        "./managers/UpgradeManager.sol",
+        "./libraries/Errors.sol",
+        "./libraries/SignatureDecoder.sol",
+        "./handlers/ERC1271Handler.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "ClaveImplementation"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/managers/HookManager.sol": {
+      "lastModificationDate": 1705175744563,
+      "contentHash": "61fee581227cd291dab71693ccbb6117",
+      "sourceName": "contracts/managers/HookManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/ERC165Checker.sol",
+        "@account-abstraction/contracts/interfaces/UserOperation.sol",
+        "../auth/Auth.sol",
+        "../libraries/ClaveStorage.sol",
+        "../libraries/LinkedList.sol",
+        "../libraries/Errors.sol",
+        "../interfaces/IHook.sol",
+        "../interfaces/IInitable.sol",
+        "../interfaces/IClave.sol",
+        "@nomad-xyz/excessively-safe-call/src/ExcessivelySafeCall.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "HookManager"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/managers/UpgradeManager.sol": {
+      "lastModificationDate": 1705175744564,
+      "contentHash": "3aaa4b4988ab3447801288fb768e077b",
+      "sourceName": "contracts/managers/UpgradeManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/Errors.sol",
+        "../auth/Auth.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "UpgradeManager"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/managers/ModuleManager.sol": {
+      "lastModificationDate": 1705175744564,
+      "contentHash": "c9521f7ee86f6f41939bbcd646f8a5f8",
+      "sourceName": "contracts/managers/ModuleManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/ERC165Checker.sol",
+        "../libraries/ClaveStorage.sol",
+        "../auth/Auth.sol",
+        "../libraries/LinkedList.sol",
+        "../libraries/Errors.sol",
+        "../interfaces/IModule.sol",
+        "../interfaces/IInitable.sol",
+        "../interfaces/IClave.sol",
+        "@nomad-xyz/excessively-safe-call/src/ExcessivelySafeCall.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "ModuleManager"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/libraries/SignatureDecoder.sol": {
+      "lastModificationDate": 1705175744563,
+      "contentHash": "9e325d8b8d745a13a6e663998a4c1469",
+      "sourceName": "contracts/libraries/SignatureDecoder.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/Errors.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "SignatureDecoder"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/handlers/ERC1271Handler.sol": {
+      "lastModificationDate": 1705175744562,
+      "contentHash": "5d32f00a50196d2d5635246d046bd74d",
+      "sourceName": "contracts/handlers/ERC1271Handler.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/interfaces/IERC1271Upgradeable.sol",
+        "../libraries/SignatureDecoder.sol",
+        "./ValidationHandler.sol",
+        "../helpers/EIP712.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "ERC1271Handler"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol": {
+      "lastModificationDate": 1705241386942,
+      "contentHash": "be27cb63ce8e469db3306a210450385f",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/AddressUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@account-abstraction/contracts/samples/callback/TokenCallbackHandler.sol": {
+      "lastModificationDate": 1705241385255,
+      "contentHash": "21bec772e7d7c8f85367728487148cf3",
+      "sourceName": "@account-abstraction/contracts/samples/callback/TokenCallbackHandler.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+        "@openzeppelin/contracts/token/ERC777/IERC777Recipient.sol",
+        "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+        "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TokenCallbackHandler"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/auth/Auth.sol": {
+      "lastModificationDate": 1705175744561,
+      "contentHash": "b55da554db4a2a90ca2af4fc1b497c1d",
+      "sourceName": "contracts/auth/Auth.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./EntrypointAuth.sol",
+        "./ModuleAuth.sol",
+        "./SelfAuth.sol",
+        "./HookAuth.sol",
+        "../libraries/Errors.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Auth"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/libraries/ClaveStorage.sol": {
+      "lastModificationDate": 1705175744563,
+      "contentHash": "f0fa6315e4e48a082e414d4342766130",
+      "sourceName": "contracts/libraries/ClaveStorage.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "ClaveStorage"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/libraries/LinkedList.sol": {
+      "lastModificationDate": 1705175744563,
+      "contentHash": "7845fe55d4c7c6b7c17ce5f1afaf3451",
+      "sourceName": "contracts/libraries/LinkedList.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/Errors.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "AddressLinkedList",
+        "BytesLinkedList"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/interfaces/IHook.sol": {
+      "lastModificationDate": 1705175744562,
+      "contentHash": "f62b51e8c4d685a231e27606ec624f84",
+      "sourceName": "contracts/interfaces/IHook.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@account-abstraction/contracts/interfaces/UserOperation.sol",
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+        "./IInitable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "IExecutionHook",
+        "IValidationHook"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/interfaces/IInitable.sol": {
+      "lastModificationDate": 1705175744563,
+      "contentHash": "50e8a41d1cd6d081ee72a24b82ef444e",
+      "sourceName": "contracts/interfaces/IInitable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "IInitable"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/interfaces/IClave.sol": {
+      "lastModificationDate": 1705175744562,
+      "contentHash": "ac237c20300ca3f0e4a6d19f0ff32bc8",
+      "sourceName": "contracts/interfaces/IClave.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "IClave"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@nomad-xyz/excessively-safe-call/src/ExcessivelySafeCall.sol": {
+      "lastModificationDate": 1705241383903,
+      "contentHash": "41dab284b8e20b27197c9f46e2dc0835",
+      "sourceName": "@nomad-xyz/excessively-safe-call/src/ExcessivelySafeCall.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.6"
+      ],
+      "artifacts": [
+        "ExcessivelySafeCall"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@openzeppelin/contracts/utils/introspection/ERC165Checker.sol": {
+      "lastModificationDate": 1705241385983,
+      "contentHash": "1abe3767b27223b96a265645cb2a56e3",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165Checker.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165Checker"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/auth/ModuleAuth.sol": {
+      "lastModificationDate": 1705175744561,
+      "contentHash": "0edb171260c81a7a4aedf133562cd349",
+      "sourceName": "contracts/auth/ModuleAuth.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/Errors.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "ModuleAuth"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/auth/SelfAuth.sol": {
+      "lastModificationDate": 1705175744562,
+      "contentHash": "3f0dc6c9842674991a96e0316f0932bb",
+      "sourceName": "contracts/auth/SelfAuth.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/Errors.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "SelfAuth"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/auth/EntrypointAuth.sol": {
+      "lastModificationDate": 1705175744561,
+      "contentHash": "70bd9c8aa7c4d519fc20df453d39676b",
+      "sourceName": "contracts/auth/EntrypointAuth.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@account-abstraction/contracts/interfaces/IEntryPoint.sol",
+        "../libraries/Errors.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "EntrypointAuth"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/auth/HookAuth.sol": {
+      "lastModificationDate": 1705175744561,
+      "contentHash": "2fb7556aaa67987c8facfa47f47740d3",
+      "sourceName": "contracts/auth/HookAuth.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/Errors.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "HookAuth"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+      "lastModificationDate": 1705241386721,
+      "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/interfaces/IModule.sol": {
+      "lastModificationDate": 1705175744563,
+      "contentHash": "1318feabf7934199e689fcf55bef2d8b",
+      "sourceName": "contracts/interfaces/IModule.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IInitable.sol",
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "IModule"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/handlers/ValidationHandler.sol": {
+      "lastModificationDate": 1705175744562,
+      "contentHash": "8d8e568fcf63f69804091dd08170920b",
+      "sourceName": "contracts/handlers/ValidationHandler.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/SignatureDecoder.sol",
+        "../libraries/LinkedList.sol",
+        "../managers/OwnerManager.sol",
+        "../managers/ValidatorManager.sol",
+        "../interfaces/IValidator.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "ValidationHandler"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/helpers/EIP712.sol": {
+      "lastModificationDate": 1705175744562,
+      "contentHash": "e150380ca45b97a97030c810b38ea0f7",
+      "sourceName": "contracts/helpers/EIP712.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "EIP712",
+        "IERC5267",
+        "Math",
+        "MessageHashUtils",
+        "ShortStrings",
+        "SignedMath",
+        "StorageSlot",
+        "Strings"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@openzeppelin/contracts-upgradeable/interfaces/IERC1271Upgradeable.sol": {
+      "lastModificationDate": 1705241386754,
+      "contentHash": "7e169522c39a2d02d418dc22a9f1aa1e",
+      "sourceName": "@openzeppelin/contracts-upgradeable/interfaces/IERC1271Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1271Upgradeable"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/managers/OwnerManager.sol": {
+      "lastModificationDate": 1705175744564,
+      "contentHash": "0d1272996eaefefe04cc252428186fcc",
+      "sourceName": "contracts/managers/OwnerManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/ClaveStorage.sol",
+        "../libraries/LinkedList.sol",
+        "../libraries/Errors.sol",
+        "../auth/Auth.sol",
+        "../interfaces/IClave.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "OwnerManager"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/managers/ValidatorManager.sol": {
+      "lastModificationDate": 1705175744564,
+      "contentHash": "0c673ad3e9c5f0c551ee05065c7ef65f",
+      "sourceName": "contracts/managers/ValidatorManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/ERC165Checker.sol",
+        "../auth/Auth.sol",
+        "../libraries/Errors.sol",
+        "../libraries/ClaveStorage.sol",
+        "../libraries/LinkedList.sol",
+        "../interfaces/IValidator.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "ValidatorManager"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/interfaces/IValidator.sol": {
+      "lastModificationDate": 1705175744563,
+      "contentHash": "4c8126a61651d756fce0d62c707c6104",
+      "sourceName": "contracts/interfaces/IValidator.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "IK1Validator",
+        "IR1Validator"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol": {
+      "lastModificationDate": 1705241385439,
+      "contentHash": "b70d2e0552ab1f44f7e44b5f8379c358",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "AddressUpgradeable"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
+      "lastModificationDate": 1705241386811,
+      "contentHash": "c22d4395e33763de693fd440c6fd10e1",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@openzeppelin/contracts/token/ERC777/IERC777Recipient.sol": {
+      "lastModificationDate": 1705241386827,
+      "contentHash": "268af1696d7a83a7e78a1a8f5ba1c685",
+      "sourceName": "@openzeppelin/contracts/token/ERC777/IERC777Recipient.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC777Recipient"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol": {
+      "lastModificationDate": 1705241386693,
+      "contentHash": "9f8822b72fe2702979e40160cb6d9636",
+      "sourceName": "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1155Receiver"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/validators/TEEValidator.sol": {
+      "lastModificationDate": 1705175744565,
+      "contentHash": "a4b2ddcc8d150a07594ab2851220ce72",
+      "sourceName": "contracts/validators/TEEValidator.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IValidator.sol",
+        "../libraries/Errors.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "TEEValidator"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/modules/recovery/base/BaseRecovery.sol": {
+      "lastModificationDate": 1705175744564,
+      "contentHash": "736886a7fdedb1abf5aea2ec9d1a0edd",
+      "sourceName": "contracts/modules/recovery/base/BaseRecovery.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+        "../../../helpers/EIP712.sol",
+        "../../../interfaces/IModule.sol",
+        "../../../libraries/Errors.sol",
+        "../../../interfaces/IClave.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "BaseRecovery"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/modules/recovery/SocialRecoveryModule.sol": {
+      "lastModificationDate": 1705175744564,
+      "contentHash": "628f7dad79cd7f69c6e49101bda263d3",
+      "sourceName": "contracts/modules/recovery/SocialRecoveryModule.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+        "@openzeppelin/contracts/utils/cryptography/SignatureChecker.sol",
+        "../../helpers/EIP712.sol",
+        "../../libraries/Errors.sol",
+        "../../interfaces/IClave.sol",
+        "./base/BaseRecovery.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "SocialRecoveryModule"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@openzeppelin/contracts/utils/cryptography/SignatureChecker.sol": {
+      "lastModificationDate": 1705241387034,
+      "contentHash": "a6c043c18ceaf0499c284c8b65b313f4",
+      "sourceName": "@openzeppelin/contracts/utils/cryptography/SignatureChecker.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ECDSA.sol",
+        "../Address.sol",
+        "../../interfaces/IERC1271.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SignatureChecker"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@openzeppelin/contracts/utils/cryptography/ECDSA.sol": {
+      "lastModificationDate": 1705241385807,
+      "contentHash": "482bcc512029ecf51ca4ae85cf4667c7",
+      "sourceName": "@openzeppelin/contracts/utils/cryptography/ECDSA.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Strings.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ECDSA"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@openzeppelin/contracts/interfaces/IERC1271.sol": {
+      "lastModificationDate": 1705241386697,
+      "contentHash": "8fe867b95c856b204f954a1910e28a1e",
+      "sourceName": "@openzeppelin/contracts/interfaces/IERC1271.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1271"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1705241385459,
+      "contentHash": "ad714a6368ee7d43cded6bbe8af0b155",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1705241387049,
+      "contentHash": "9c54c6c065d9e590fdcdd72c451425b9",
+      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/validators/EOAValidator.sol": {
+      "lastModificationDate": 1705175744564,
+      "contentHash": "d24eca0022579c04cba217a7364548a9",
+      "sourceName": "contracts/validators/EOAValidator.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IValidator.sol",
+        "@openzeppelin/contracts/utils/cryptography/ECDSA.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "EOAValidator"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/modules/recovery/CloudRecoveryModule.sol": {
+      "lastModificationDate": 1705175744564,
+      "contentHash": "b1791ee1c5a48222f8ea7a3d0641a548",
+      "sourceName": "contracts/modules/recovery/CloudRecoveryModule.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+        "@openzeppelin/contracts/utils/cryptography/SignatureChecker.sol",
+        "../../helpers/EIP712.sol",
+        "../../libraries/Errors.sol",
+        "../../interfaces/IInitable.sol",
+        "../../interfaces/IClave.sol",
+        "./base/BaseRecovery.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "CloudRecoveryModule"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/ClaveRegistry.sol": {
+      "lastModificationDate": 1705175744561,
+      "contentHash": "f9aabce8f1512ef31f57f5f172655545",
+      "sourceName": "contracts/ClaveRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "./libraries/Errors.sol",
+        "./interfaces/IClaveRegistry.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "ClaveRegistry"
+      ]
+    },
+    "/Users/tahos81/Desktop/clave/clave-monorepo/apps/clave-contracts-4337/contracts/crypto/P256Verifier.sol": {
+      "lastModificationDate": 1705175744562,
+      "contentHash": "3e0b04930be65bb09e72f2c22777eb0e",
+      "sourceName": "contracts/crypto/P256Verifier.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "P256Verifier"
+      ]
+    }
+  }
+}

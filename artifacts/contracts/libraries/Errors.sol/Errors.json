@@ -1,0 +1,281 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Errors",
+  "sourceName": "contracts/libraries/Errors.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "ADDRESS_ALREADY_EXISTS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "ADDRESS_NOT_EXISTS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "ALREADY_INITED",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "BYTES_ALREADY_EXISTS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "BYTES_NOT_EXISTS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "CALL_FAILED",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "DEPLOYMENT_FAILED",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "EMPTY_HOOK_ADDRESS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "EMPTY_MODULE_ADDRESS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "EMPTY_R1_OWNERS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "EMPTY_R1_VALIDATORS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "FAILED_FEE_TRANSFER",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "GUARDIANS_MUST_BE_SORTED",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "HOOK_ERC165_FAIL",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "INITIALIZATION_FAILED",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "INSUFFICIENT_GUARDIANS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "INVALID_ADDRESS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "INVALID_BYTES",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "INVALID_GUARDIAN",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "INVALID_GUARDIAN_SIGNATURE",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "INVALID_KEY",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "INVALID_MARKUP",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "INVALID_PREV",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "INVALID_PUBKEY_LENGTH",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "INVALID_RECOVERY_CONFIG",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "INVALID_RECOVERY_NONCE",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "INVALID_SIGNATURE",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "INVALID_TOKEN",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "LESS_ALLOWANCE_FOR_PAYMASTER",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "MODULE_ERC165_FAIL",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "MODULE_NOT_ADDED_CORRECTLY",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "MODULE_NOT_REMOVED_CORRECTLY",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NOT_CLAVE_ACCOUNT",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NOT_FROM_DEPLOYER",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NOT_FROM_ENTRYPOINT",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NOT_FROM_FACTORY",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NOT_FROM_HOOK",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NOT_FROM_MODULE",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NOT_FROM_SELF",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NOT_FROM_SELF_OR_MODULE",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "ONLY_DELEGATECALL",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "RECOVERY_IN_PROGRESS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "RECOVERY_NOT_INITED",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "RECOVERY_NOT_STARTED",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "RECOVERY_TIMELOCK",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "RECUSIVE_MODULE_CALL",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "SAME_IMPLEMENTATION",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "SHORT_PAYMASTER_INPUT",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "UNAUTHORIZED_WITHDRAW",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "UNSUPPORTED_FLOW",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "UNSUPPORTED_TOKEN",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "USER_LIMIT_REACHED",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "VALIDATOR_ERC165_FAIL",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "ZERO_ADDRESS_GUARDIAN",
+      "type": "error"
+    }
+  ],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea2646970667358221220a854ba8dfde6b89376fa45be245b99682c4488b90c0e57296f18498c9cecf4e864736f6c63430008110033",
+  "deployedBytecode": "0x600080fdfea2646970667358221220a854ba8dfde6b89376fa45be245b99682c4488b90c0e57296f18498c9cecf4e864736f6c63430008110033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

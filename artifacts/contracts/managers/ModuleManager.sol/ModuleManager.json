@@ -1,0 +1,203 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ModuleManager",
+  "sourceName": "contracts/managers/ModuleManager.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "ADDRESS_ALREADY_EXISTS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "ADDRESS_NOT_EXISTS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "EMPTY_MODULE_ADDRESS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "INVALID_ADDRESS",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "MODULE_ERC165_FAIL",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NOT_FROM_MODULE",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NOT_FROM_SELF_OR_MODULE",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "RECUSIVE_MODULE_CALL",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "module",
+          "type": "address"
+        }
+      ],
+      "name": "AddModule",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "module",
+          "type": "address"
+        }
+      ],
+      "name": "RemoveModule",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes",
+          "name": "moduleAndData",
+          "type": "bytes"
+        }
+      ],
+      "name": "addModule",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "entrypoint",
+      "outputs": [
+        {
+          "internalType": "contract IEntryPoint",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "executeFromModule",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "addr",
+          "type": "address"
+        }
+      ],
+      "name": "isHook",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "addr",
+          "type": "address"
+        }
+      ],
+      "name": "isModule",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "listModules",
+      "outputs": [
+        {
+          "internalType": "address[]",
+          "name": "moduleList",
+          "type": "address[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "module",
+          "type": "address"
+        }
+      ],
+      "name": "removeModule",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes",
+          "name": "pubKey",
+          "type": "bytes"
+        }
+      ],
+      "name": "resetOwners",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

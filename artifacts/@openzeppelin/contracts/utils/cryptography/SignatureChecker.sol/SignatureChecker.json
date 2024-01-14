@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "SignatureChecker",
+  "sourceName": "@openzeppelin/contracts/utils/cryptography/SignatureChecker.sol",
+  "abi": [],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea2646970667358221220ef053b59b84f68d82344af5824c87f2712eff648d3388d51f031735d3670ee5d64736f6c63430008110033",
+  "deployedBytecode": "0x600080fdfea2646970667358221220ef053b59b84f68d82344af5824c87f2712eff648d3388d51f031735d3670ee5d64736f6c63430008110033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
